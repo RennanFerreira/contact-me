@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rennan-ferreira-278542217/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+
+        <li>
+          <a href="https://github.com/RennanFerreira" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+
+    <form action="./end.html">
+      <div>
+        <label for="fullName">Nome:</label>
+        <input
+          id="fullName"
+          type="text"
+          required
+          placeholder="Escreva seu nome"
+        />
+      </div>
+      <div>
+        <label for="Email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Escreva seu e-mail"
+        />
+      </div>
+      <div>
+        <label for="password">Senha:</label>
+        <input
+          id="password"
+          type="password"
+          required
+          placeholder="Escreva sua senha"
+        />
+      </div>
+
+      <div>
+        <label>Gênero</label>
+        <div>
+          <input type="radio" name="gender" id="male" value="masculino" />
+          <label for="male">Masculino</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female" value="feminino" />
+          <label for="female">Feminino</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="other" value="outro" />
+          <label for="other">Outro</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Quais serviços quer contratar?</label>
+        <div>
+          <input type="checkbox" id="lading_page" name="lading_page" />
+          <label for="lading_page">Criação de página de venda</label>
+        </div>
+        <div>
+          <input type="checkbox" id="apps" name="apps" />
+          <label for="apps">Criação de aplicativos</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="formatação_de_computador"
+            name="formatação_de_computador"
+          />
+          <label for="formatação_de_computador">formatação de computador</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Sua mensagem</label>
+        <div>
+          <textarea></textarea>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Finalizar">
+        <input type="reset" value="Limpar">
+      </div>
+    </form>
+  </body>
+</html>
